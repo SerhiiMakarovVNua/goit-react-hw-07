@@ -1,0 +1,31 @@
+.formBloc {
+  max-width: 280px;
+  border: 2px solid #213547;
+  border-radius: 8px;
+  margin: 0 auto 24px;
+  padding: 8px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: start;
+}
+.input {
+  height: 24px;
+  border: 2px solid #213547ab;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  outline: none;
+  transition: border-color 0.25s;
+}
+.input:hover {
+  border-color: #646cff;
+}
+.button {
+  width: 127px;
+  margin: 0 auto;
+}
+.error {
+  color: red;
+}

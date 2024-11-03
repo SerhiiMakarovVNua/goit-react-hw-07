@@ -1,0 +1,18 @@
+.searchBox {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-width: 300px;
+  margin: 0 auto 24px;
+  text-align: start;
+}
+.input {
+  height: 24px;
+  border: 2px solid #213547ab;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.25s;
+}
+.input:hover {
+  border-color: #646cff;
+}
